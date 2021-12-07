@@ -1,6 +1,6 @@
 pkgbase = python-pip-api
 	pkgdesc = An unofficial, importable pip API
-	pkgver = 0.0.23
+	pkgver = 0.0.25
 	pkgrel = 1
 	url = https://github.com/di/pip-api
 	arch = any
@@ -8,8 +8,9 @@ pkgbase = python-pip-api
 	makedepends = python-setuptools
 	depends = python-pip
 	conflicts = python-pip-api-git
+	noextract = python-pip-api-0.0.25.tar.gz
 	options = !strip
-	source = python-pip-api-0.0.23.tar.gz::https://github.com/di/pip-api/archive/refs/tags/0.0.23.tar.gz
-	sha512sums = de2016a3f283831d893a26d9e29b6f33415a64facc1862028a39593fbc6a83c3f0a859fed1bd6d5eb2a8c211e504d3a2cc34e6c2b204d7135646cbd90e8a1ed0
+	source = python-pip-api-0.0.25.tar.gz::https://github.com/di/pip-api/tarball/7e4d857253e1f4fba3ff699249c94f981704e657
+	sha512sums = f4044d84944af5bcb39b88f30d0d4c1fad70e881d93f1a9f6d84d862c34f16fe56b1aa4a9c5e7e347326668cba303d71dc96b47eb74a475ec811f1dd231192fd
 
 pkgname = python-pip-api
